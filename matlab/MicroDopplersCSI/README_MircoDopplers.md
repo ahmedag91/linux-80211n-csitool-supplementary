@@ -1,6 +1,6 @@
 # Description
 
-The files in this folder are just an incremental work added to the original [CSI tool](https://github.com/dhalperi/linux-80211n-csitool-supplementary). The in this folder files were implemented in Matlab 2019b. The purpose of these files is to process the measured raw CSI data and compute the true micro-Doppler signatures by means of the spectrograms. The Matlab files are documented. Just run the 'main.m' file in Matlab and it will ask to choose a file with '.dat' extension. This file should contain the collected raw CSI data. If you find this library is useful for your research work, please cite the papers below
+The files in this folder are just an incremental work added to the original [CSI tool](https://github.com/dhalperi/linux-80211n-csitool-supplementary). The in this folder files were implemented in Matlab 2019b. The purpose of these files is to process the measured raw CSI data and compute the true micro-Doppler signatures by means of the spectrograms. The Matlab files are documented. Just run the `main.m` file in Matlab and it will ask to choose a file with `.dat` extension. This file should contain the collected raw CSI data. If you find this library is useful for your research work, please cite the papers below
 
 # Citation
 
