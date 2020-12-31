@@ -1,8 +1,8 @@
 close all 
 clear 
 clc 
-
-
+%% Add the super directory path
+addpath('../')
 %$ Read the CSI raw data 
 CTFs = read_CSI();
 
