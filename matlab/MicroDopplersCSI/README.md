@@ -28,3 +28,10 @@ The files in this folder are just an incremental work added to the original [CSI
         doi={10.1109/ACCESS.2020.3022287}
     }
 ```
+This folder contains the following files with brief descriptions
+
+- `calibrate_CTF.m`: This file calibrates the measured CTF by applying element-wise division.
+- `plotting.m`: This file has plotting function that can be called. This function was made to reduce the repitions of the code.
+- `surfing.m`: This file contains a surfing functions, which plots a heat map.
+- `read_CSI.m`: This file contains a code that reads the recorded CSI from `.dat` file. Then it reconstructs the CTF.
+- `main.m`: The main file to run. It reads the CSI data to construct the CTF, calibrate the CTF, apply the highpass filtering and/or the principle component analysis (PCA) to denoise the data. Then it computes the spectrogram of the denoised data and display it using the function implemented in `surfing.m`.
